@@ -1,9 +1,9 @@
-pipeline {
+xpipeline {
     agent any
     stages {
         stage('Build') {
             steps {
-                echo '++++++++++++++++++++++++ Main Branch inside +++++++++ +++++++++++++++++++++'
+                echo '++++++++++++++++++++++++ Main Branch inside +++++++++xcc +++++++++++++++++++++'
             }
         }
     }
